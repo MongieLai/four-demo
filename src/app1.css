@@ -1,0 +1,11 @@
+.app1{
+    padding:50px;
+}
+
+.app1 > p {
+    font-size: 40px;
+}
+
+.app1 > button {
+    padding:10px 20px;
+}

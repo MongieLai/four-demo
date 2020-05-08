@@ -1,0 +1,22 @@
+#app4{
+    padding: 50px;
+}
+.circular{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+@keyframes change{
+    0%{
+        background-color: black; 
+    }
+    100%{
+        background-color: white;
+    }
+}
+
+.circular.active{
+    animation:2s change infinite linear alternate;
+}
